@@ -1,0 +1,12 @@
+.Search{
+    margin:5px;
+}
+.Input{
+    outline: none;
+    border:none;
+    border-bottom: grey 1.9px solid;
+    width:300px;
+    height:25px;
+    border-radius: 6%;
+
+}

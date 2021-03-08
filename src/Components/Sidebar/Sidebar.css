@@ -1,0 +1,27 @@
+.Sidebar{
+    display: flex;
+    height:100vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: rgb(111, 175, 85);
+    flex-wrap: wrap;
+}
+
+
+.straight_line{
+    flex-shrink: 1;
+}
+
+@media(max-width : 630px){
+    .Sidebar{
+        height:100vh;
+    }
+}
+@media(max-width : 565px){
+    .Sidebar{
+        display: none;
+    }
+}
+
+
+
